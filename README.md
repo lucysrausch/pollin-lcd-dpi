@@ -33,7 +33,8 @@ https://www.raspberrypi.org/downloads/raspbian/
 >hdmi_timings=960 0 40 48 88 160 0 13 3 32 0 0 0 60 0 32000000 3
 
 
-5. Save the config.txt file as plain text and then open up cmdline.txt After rootwait (the last word on the first line) add a space and then
+5. Save the config.txt file as plain text and then open "cmdline.txt".
+After rootwait (the last word on the first line) add a space and then
 >modules-load=dwc2,g_ether
 
 6. Enable SSH. Create a empty file named "ssh" on the boot partition:
