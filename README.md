@@ -39,7 +39,7 @@ After rootwait (the last word on the first line) add a space and then
 
 6. Enable SSH. Create a empty file named "ssh" on the boot partition:
 
->echo "" > ssh
+>echo "" > /boot/ssh
 
 7. Plug in your Pi with a USB Micro cable. Make sure to use the "USB" plug.
 
