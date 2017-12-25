@@ -60,6 +60,8 @@ dtparam=audio=on
 dtparam=spi=off
 dtparam=i2c_arm=off
 
+dtoverlay=dwc2as
+
 #Overscan Information.
 #overscan_left=-32
 #overscan_right=-32
