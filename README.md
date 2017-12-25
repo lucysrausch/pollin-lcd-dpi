@@ -53,6 +53,6 @@ After rootwait (the last word on the first line) add a space and then
     >wget https://raw.githubusercontent.com/NiklasFauth/pollin-lcd-dpi/master/pollin-dt-blob.dts
 
 11. Creat a device-tree file that enables all the required GPIOs:
-    >sudo dtc -I dts -O dtb -o /boot/dt-blob.bin pollin-lcd-dpi/pollin-dt-blob.dts
+    >sudo dtc -I dts -O dtb -o /boot/dt-blob.bin pollin-dt-blob.dts
 
 12. Reboot.
