@@ -6,7 +6,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 2. Copy to SD card (> 4GB)
 
 > dd if=/home/niklas/Downloads/2017-11-29-raspbian-stretch-lite.img | pv | dd of=/dev/sdb
-
+>
 > sync
 
 3. Plug SD card in your Pi and power it up. Wait for a few minutes.
@@ -50,6 +50,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 10. On your Pi, install and download few tools. Make sure to share internet with your Pi:
 >sudo apt-get install device-tree-compiler
+>
 >wget https://raw.githubusercontent.com/NiklasFauth/pollin-lcd-dpi/master/pollin-dt-blob.dts
 
 11. Creat a device-tree file that enables all the required GPIOs:
