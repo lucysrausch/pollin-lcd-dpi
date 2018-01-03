@@ -45,14 +45,14 @@ After rootwait (the last word on the first line) add a space and then
 8. SSH to your Pi, connected as a network device:
     >ssh pi@raspberrypi.local
 
-9. Expand the filesystem using the raspyi tool
+9. Expand the filesystem using the raspi tool
     >sudo raspi-config
 
 10. On your Pi, install and download few tools. Make sure to share internet with your Pi:
     >sudo apt-get install device-tree-compiler<br/>
     >wget https://raw.githubusercontent.com/NiklasFauth/pollin-lcd-dpi/master/pollin-dt-blob.dts
 
-11. Creat a device-tree file that enables all the required GPIOs:
+11. Create a device-tree file that enables all the required GPIOs:
     >sudo dtc -I dts -O dtb -o /boot/dt-blob.bin pollin-dt-blob.dts
 
 12. Reboot.
